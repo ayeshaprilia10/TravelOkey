@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/home"
+            android:src="@drawable/home"
+            style="@style/image_btn_bottombar"
+            />
+        <ImageButton
+            android:id="@+id/notif"
+            android:src="@drawable/notif"
+            style="@style/image_btn_bottombar"
+            />
+        <ImageButton
+            android:id="@+id/profile"
+            android:src="@drawable/person"
+            style="@style/image_btn_bottombar"/>
+    </LinearLayout>
+
+</RelativeLayout>

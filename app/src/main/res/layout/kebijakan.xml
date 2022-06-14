@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                android:src="@drawable/title_travelokey"/>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="@string/kebijakan_privasi" />
+
+        <TextView
+            android:id="@+id/tv_kebijakan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:text="@string/tentang_travelokay"
+            android:fontFamily="@font/poppins_medium"/>
+
+        <TextView
+            android:id="@+id/tv_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="@string/selamat_datang"
+            android:textSize="18sp"
+            android:justificationMode="inter_word"/>
+
+        <TextView
+            android:id="@+id/tv_pertanyaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:text="@string/apa_itu_kebijakan_privasi_travelokay"
+            android:fontFamily="@font/poppins_medium"/>
+
+        <TextView
+            android:id="@+id/tv_mengatur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="@string/travelokay_mengatur"
+            android:textSize="18sp"
+            android:justificationMode="inter_word"/>
+
+        <TextView
+            android:id="@+id/tv_informasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:text="@string/Informasi"
+            android:fontFamily="@font/poppins_medium"/>
+
+        <TextView
+            android:id="@+id/tv_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="@string/info"
+            android:textSize="18sp"
+            android:justificationMode="inter_word"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

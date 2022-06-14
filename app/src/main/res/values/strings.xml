@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">Tarvelokey</string>
+    <string name="title">Nama Travel</string>
+    <string name="description">Deskripsi</string>
+    <string name="submit">Simpan</string>
+    <string name="delete">Hapus</string>
+    <string name="date">Date</string>
+    <string name="reguler">Reguler</string>
+    <string name="large">Large</string>
+    <string name="logo_travelokey">Logo Travelokey</string>
+    <string name="halo">Halo, </string>
+    <string name="user">User</string>
+    <string name="semoga_perjalananmu_menyenangkan">Semoga perjalananmu menyenangkan !</string>
+    <string name="flight">Flight</string>
+    <string name="hotels">Hotels</string>
+    <string name="pariwisata">Pariwisata</string>
+    <string name="travel">Travel</string>
+    <string name="bus">Bus</string>
+    <string name="login_01">Log in untuk nikmati semua keuntungannya!!</string>
+    <string name="login_02">Kamu cukup masukkan email dan password aja, kok.</string>
+    <string name="email_username">Email/Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="login_03">Pesan tiket apa pun cukup sekali tap!</string>
+    <string name="login_04">Nggak perlu lama ngisi form, karena datamu sudah disimpan dengan aman.</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="ulangi_password">Ulangi password</string>
+    <string name="selanjutnya">Selanjutnya</string>
+    <string name="login_05">Lengkapi Identitas kamu yuk!</string>
+    <string name="login_06"><![CDATA[Agar kami bisa mengenal kamu lebih dekat <3]]></string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="tanggal_lahir">Tanggal lahir</string>
+    <string name="no_ponsel">No Ponsel</string>
+    <string name="kode_pos">kode pos</string>
+    <string name="kelola">Kelola</string>
+    <string name="nama_maskapai">Nama maskapai</string>
+    <string name="pesawat">Pesawat</string>
+    <string name="maskapai_garudafood">Maskapai Garudafood</string>
+    <string name="kota_asal">Kota asal</string>
+    <string name="jam_keberangkatan">jam berangkat</string>
+    <string name="jam_tiba">jam tiba</string>
+    <string name="fasilitas">Fasilitas</string>
+    <string name="ekonomis">Ekonomis</string>
+    <string name="rp_100_000_000">Rp.100.000.000;</string>
+    <string name="nama_pengelola">Nama Pengelola</string>
+    <string name="harga">Harga</string>
+    <string name="alamat">Alamat</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="jenis_tiket">Jenis Tiket</string>
+    <string name="penyelenggara">Penyelenggara</string>
+    <string name="jumlah_tiket">Jumlah Tiket</string>
+    <string name="kebijakan_dan_privasi">Kebijakan dan Privasi</string>
+    <string name="konfirmasi">Konfirmasi</string>
+    <string name="simpan">Simpan</string>
+    <string name="kode_negara">Kode Negara</string>
+    <string name="text_about_us">TravelOkey merupakan online travel agent di Indonesia.
+        Produk yang disediakan terkait dengan travel dan pariwisata, yakni tiket pesawat,
+        tiket bus, tiket travel, booking hotel, dan tiket wisata. Misi kami adalah untuk
+        mengakomodasi akses terbaik untuk pemesanan travel online melalui aplikasi mobile.</string>
+    <string name="lorem">lorem</string>
+    <string name="ubah_sandi">Ubah Kata Sandi</string>
+    <string name="lainnya">Lainnya</string>
+    <string name="tentang">"Tentang "</string>
+    <string name="privasi">Privasi</string>
+    <string name="syarat_ketentuan">"Syarat Dan Ketentuan "</string>
+    <string name="nilai_app">Nilai app</string>
+    <string name="pengaturan_profile">Pengaturan Profile</string>
+    <string name="akun">Akun</string>
+    <string name="email_phone">Email Dan Nomer Ponsel</string>
+    <string name="ubah_kata_sandi">Ubah Kata Sandi</string>
+    <string name="email_dan_nomer_ponsel">Email Dan Nomer Ponsel</string>
+    <string name="password_change">Ubah Kata Sandi</string>
+    <string name="kebijakan_privasi">Kebijakan Privasi</string>
+    <string name="syarat_dsn_ketentuan">Syarat Dsn Ketentuan</string>
+    <string name="syarat_dan_ketentuan">Syarat Dan Ketentuan</string>
+    <string name="beri_nilai_aplikasi">Beri Nilai Aplikasi</string>
+    <string name="about_travelokay">About TravelOkay</string>
+    <string name="belum_punya_akun_buat_akun_yuk">Belum punya akun? Buat Akun yuk!</string>
+    <string name="nomor_ponsel">Nomor Ponsel</string>
+    <string name="daftar">Daftar</string>
+    <string name="udah_punya_akun_log_in_aja">Udah punya akun? Log in aja!</string>
+    <string name="keluar">Keluar</string>
+    <string-array name="kode">
+        <item>+62 (Indonesia)</item>
+        <item>+1 (Amerika Serikat)</item>
+        <item>+86 (Cina)</item>
+        <item>+91 (India)</item>
+        <item>+44 (Inggris/Britain)</item>
+        <item>+39 (Italia)</item>
+    </string-array>
+    <string name="tentang_travelokay">Tentang TravelOkay</string>
+    <string name="selamat_datang">Selamat datang di website TravelOkay. Website ini dimiliki, dioperasikan, diselenggarakan oleh PT Global Tiket Network (“Kami” atau “TravelOkay”), suatu perseroan terbatas yang didirikan berdasarkan hukum Republik Indonesia dengan Ijin Tetap Usaha Pariwisata Nomor 2532/2011 tertanggal 09 November 2011; Kami menyediakan website dan layanan yang tersedia secara online melalui website: www.TravelOkay atau situs web mobile : m.TravelOkay atau aplikasi mobile : TravelOkay untuk iOS dan TravelOkay untuk Android, dan berbagai akses, media, perangkat dan platform lainnya (“Layanan Online”), baik yang sudah atau akan tersedia di kemudian hari.</string>
+    <string name="apa_itu_kebijakan_privasi_travelokay">Apa Itu Kebijakan Privasi TravelOkay</string>
+    <string name="mengatur">mengatur</string>
+    <string name="travelokay_mengatur">Kebijakan Privasi ini mengatur dan/atau menjelaskan seluruh layanan yang sudah Kami sediakan untuk Anda (“Pengguna”) gunakan, baik layanan yang Kami operasikan sendiri maupun yang dioperasikan melalui afiliasi dan/atau rekanan Kami. Untuk menjaga kepercayaan Anda kepada Kami, maka Kami berkomitment untuk senantiasa akan menjaga segala kerahasiaan yang terkandung dalam data pribadi Anda, karena Kami menganggap privasi Anda sangat penting bagi Kami. Dalam Kebijakan Privasi ini Kami sertakan penjelasan mengenai tata cara Kami mengumpulkan, menggunakan, mengungkapkan, memproses, menganalisa, merubah, menghapus, menyimpan dan melindungi informasi dan data pribadi Anda yang mengidentifikasikan atau dapat digunakan untuk mengidentifikasi Anda baik yang diberikan oleh Anda dan/atau yang Kami kumpulkan dari Anda maupun pihak ketiga (“Data Pribadi”). Pada saat Anda membuat pemesanan dan/atau akun pribadi pada website TravelOkay, maka Kami akan mencatat dan menyimpan informasi dan Data Pribadi Anda. Pada prinsipnya, setiap data yang Anda berikan dari waktu ke waktu akan Kami simpan dan hanya Kami gunakan untuk kepentingan penyediaan produk dan layanan Kami kepada Anda, yaitu antara lain untuk keperluan tokenisasi, akuntansi, tagihan, audit, verifikasi kredit atau pembayaran, newsletter, serta keperluan keamanan, administrasi dan hukum, bonus poin atau bentuk sejenisnya, pengujian, pemeliharaan dan pengembangan sistem, hubungan pelanggan, promosi dan tindakan lain yang Kami anggap perlu untuk membantu Kami di kemudian hari dalam memberikan pelayanan kepada Anda. Sehubungan dengan itu, apabila dianggap perlu Kami dapat mengungkapkan data Anda kepada perusahaan afiliasi yang berada dalam grup perusahaan yang sama dimana TravelOkay bergabung di dalamnya, mitra penyedia produk, perusahaan lain yang tercatat sebagai rekanan dari TravelOkay, perusahaan yang ditunjuk untuk melakukan proses data yang terikat kontrak dengan Kami, agen perjalanan, badan pemerintah dan badan peradilan yang berwenang di jurisdiksi manapun. Oleh karena pentingnya Kebijakan Privasi ini dan ketentuan lainnya dalam penggunaan Layanan Online Kami, maka untuk menjaga keamanan Data Pribadi Anda, mohon untuk membaca secara seksama seluruh ketentuan dalam Kebijakan Privasi ini dan ketentuan lainnya dalam Layanan Online Kami.</string>
+    <string name="Informasi">Informasi Apa Saja yang Kami Kumpulkan, Gunakan, dan Bagikan?</string>
+    <string name="info">Pada saat Anda mendaftarkan akun Anda dan/ atau mengakses Layanan Online yang Kami sediakan, maka semua informasi dan Data Pribadi Anda akan Kami kumpulkan dengan ketentuan sebagai berikut : Kami akan mengumpulkan informasi mengenai komputer ataupun media apapun yang Anda gunakan, termasuk IP address, sistem operasi, browser yang digunakan, URL, halaman, lokasi geografis dan waktu akses serta data lainnya terkait dengan penggunaan komputer Anda dan yang terekam pada saat Anda mempergunakan Layanan Online Kami (“Detail IP”). Kami akan meminta Anda untuk mengisi data-data pribadi Anda secara benar, jelas, lengkap, akurat dan tidak menyesatkan, seperti nama, alamat email, nomor telepon, alamat lengkap, informasi yang digunakan untuk pembayaran, informasi kartu kredit (nomor kartu kredit dan masa berlaku kartu kredit) dan data-data lain yang Kami perlukan guna melakukan transaksi melalui Layanan Online yang Kami sediakan agar Anda dapat memanfaatkan layanan yang Anda butuhkan. Kami tidak bertanggung jawab atas segala kerugian yang mungkin terjadi karena informasi dan atau data yang tidak benar, jelas, lengkap, akurat dan menyesatkan yang Anda berikan; Kami akan mengumpulkan dan menyimpan informasi terkait dengan interaksi Anda dengan Customer Service Kami. Kami dapat menggunakan Data Pribadi Anda dan informasi lainnya yang dikumpulkan dengan tujuan pemasaran Media Sosial dengan menggunakan tehnik grafik langsung dan terbuka dan untuk tujuan pemasaran digital konvensional, seperti mengirimkan Anda newsletter secara otomatis melalui surat elektronik untuk memberitahukan informasi produk baru, penawaran khusus atau informasi lainnya yang menurut Kami akan menarik bagi Anda. Dalam menggunakan layanan Kami, informasi-informasi yang Anda berikan dapat Kami gunakan dan berikan kepada pihak ketiga yang bekerjasama dengan Kami, sejauh untuk kepentingan transaksi dan penggunaan layanan Kami; Segala informasi yang Kami terima dapat Kami gunakan untuk melindungi diri Kami terhadap segala tuntutan dan hukum yang berlaku terkait dengan penggunaan layanan dan pelanggaran yang Anda lakukan pada website Kami atas segala ketentuan sebagaimana diatur dalam persyaratan layanan TravelOkay dan pedoman penggunaan produk dan layanan Kami, termasuk dan tidak terbatas apabila dibutuhkan atas perintah Pengadilan dalam proses hukum; Kami dapat menggunakan Data Pribadi Anda untuk melakukan pengawasan ataupun investigasi terhadap transaksi-transaksi mencurigakan atau transaksi yang terindikasi mengandung unsur kecurangan atau pelanggaran terhadap persyaratan layanan TravelOkay dan pedoman penggunaan produk dan layanan Kami maupun ketentuan hukum yang berlaku, serta melakukan Tindakan-tindakan yang perlu untuk menanggulanginya. Segala informasi yang Kami terima dapat Kami gunakan pada saat Kami melakukan transaksi penggabungan, penjualan aset perusahaan, konsolidasi atau restrukturisasi, pembiayaan atau akuisisi untuk perusahaan Kami. Kami dapat mengungkapkan Data Pribadi Anda kepada penyedia layanan pihak ketiga, agen dan/atau afiliasi atau perusahaan terkait Kami baik yang berlokasi di wilayah Indonesia maupun diluar wilayah Indonesia. Kami akan mematuhi hukum yang berlaku dan menggunakan upaya yang wajar untuk memastikan bahwa pihak ketiga, agen dan/atau afiliasi atau perusahaan terkait Kami di luar wilayah Indonesia tersebut memberikan tingkat perlindungan yang sebanding dengan komitmen Kami berdasarkan Kebijakan Privasi ini. Anda bertanggung jawab atas kerahasiaan informasi dan Data Pribadi Anda, termasuk bertanggung jawab atas semua akses dan penggunaan website yang menggunakan kata sandi dan akun serta token yang Anda miliki yang digunakan oleh siapa saja, baik atas seizin maupun tanpa seizin Anda. Demi keamanan data rahasia Anda, Kami sangat menyarankan agar Anda menyimpan akun dan kata sandi yang Anda miliki dengan sebaik-baiknya dan/atau melakukan perubahan kata sandi secara berkala. Setiap penggunaan yang tidak sah dan tanpa sepengetahuan dan izin Anda menjadi tanggung jawab Anda sendiri dan Kami tidak bertanggung-jawab atas segala kerugian yang ditimbulkan sebagai akibat dari kelalaian yang Anda lakukan. Anda harus segera memberitahukan kepada Kami mengenai adanya penggunaan sandi atau akun tanpa izin Anda atau semua bentuk pelanggaran atau ancaman pelanggaran keamanan dalam website ini. Anda berhak untuk mengakses, memperbaiki, mengubah dan atau menghapus Data Pribadi yang telah Anda berikan dan telah tersimpan dalam sistem Kami dengan cara menghubungi Customer Service Kami dan/atau melalui fitur yang terdapat pada aplikasi Kami. Kami berhak menolak permintaan Anda untuk mengakses, memperbaiki atau menghapus sebagian atau semua Data Pribadi Anda yang Kami simpan atau kendalikan selama diizinkan atau diwajibkan berdasarkan hukum yang berlaku. Hal ini mungkin termasuk dalam keadaan di mana Data Pribadi Anda memuat referensi ke individu lain atau di mana permintaan untuk mengakses, memperbaiki atau menghapus adalah untuk alasan yang Kami anggap dapat memerlukan upaya teknis yang tidak proposional atau dapat menimbulkan risiko operasional. Kami mengumpulkan Data Pribadi Anda dengan tujuan untuk memproses transaksi Anda, mengelola dan memperlancar proses penggunaan Layanan Online, serta tujuan-tujuan lainnya selama diizinkan oleh peraturan perundang-undangan yang berlaku.</string>
+    <string name="pembayaran_berhasil">Pembayaran Berhasil</string>
+    <string name="no_transaksi">No Transaksi</string>
+    <string name="tanggal_pembayaran">Tanggal pembayaran</string>
+    <string name="jenis_transaksi">Jenis Transaksi</string>
+    <string name="nama_pemesan">Nama Pemesan</string>
+    <string name="no_pembayaran">No Pembayaran</string>
+    <string name="tagihan">Tagihan</string>
+    <string name="fee">Fee</string>
+    <string name="total_bayar">Total Bayar</string>
+    <string name="kembali_ke_home">Kembali ke Home</string>
+
+</resources>

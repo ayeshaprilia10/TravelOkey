@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tentang"
+                android:text="@string/about_travelokay"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_marginTop="15dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:padding="15dp"
+                android:background="@drawable/custom_edit_text">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_privasi"
+                android:text="@string/kebijakan_privasi"
+                android:fontFamily="@font/poppins_bold"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:padding="15dp"
+                android:background="@drawable/custom_edit_text">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sk"
+                android:text="@string/syarat_dan_ketentuan"
+                android:fontFamily="@font/poppins_bold"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:padding="15dp"
+                android:background="@drawable/custom_edit_text">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nilai"
+                android:text="@string/beri_nilai_aplikasi"
+                android:fontFamily="@font/poppins_bold"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:padding="15dp"
+                android:background="@drawable/custom_edit_text">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/logout"
+                android:text="@string/keluar"
+                android:fontFamily="@font/poppins_bold"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:padding="15dp"
+                android:background="@drawable/custom_edit_text">
+            </TextView>
+        </LinearLayout>
+
+</ScrollView>

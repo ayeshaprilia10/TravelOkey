@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.LoginActivity">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/tulisan_login" />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <EditText
+            android:background="@drawable/custborder_green"
+            style="@style/btn_main_menu"
+            android:textSize="15sp"
+            android:id="@+id/etUsername"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:hint="@string/username"/>
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custborder_green"
+            style="@style/btn_main_menu"
+            android:textSize="15sp"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:hint="@string/password"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            style="@style/btn_main_menu"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#5BC8AC"
+            android:text="@string/login"
+            android:textColor="#FDFDFD"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tvCreateAccount"
+            android:paddingTop="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#5BC8AC"
+            android:text="@string/belum_punya_akun_buat_akun_yuk"/>
+    </LinearLayout>
+
+</RelativeLayout>

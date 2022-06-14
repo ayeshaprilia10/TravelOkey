@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_pesawat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp"
+        app:cardMaxElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:id="@+id/image_pesawat"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="16dp"
+            android:scaleType="fitXY"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="120dp">
+            <TextView
+                android:id="@+id/title_pesawat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/text_atas_01"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/poppins"
+                android:gravity="start"
+                android:text="@string/nama_maskapai"/>
+            <TextView
+                android:id="@+id/deskripsi_pesawat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/text_atas_02"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/poppins"
+                android:gravity="start"
+                android:text="@string/nama_maskapai"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

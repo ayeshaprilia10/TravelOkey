@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.RegisterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="230dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/tulisan" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etRegisterEmail"
+                style="@style/btn_main_menu"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custborder_green"
+                android:hint="@string/email"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/etRegisterUsername"
+                style="@style/btn_main_menu"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etRegisterEmail"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custborder_green"
+                android:hint="@string/username"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/etRegisterPassword"
+                style="@style/btn_main_menu"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etRegisterUsername"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custborder_green"
+                android:hint="@string/password"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/etRegisterUPassword"
+                style="@style/btn_main_menu"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etRegisterPassword"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custborder_green"
+                android:hint="@string/ulangi_password"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/etRegisterNamaLengkap"
+                style="@style/btn_main_menu"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etRegisterUPassword"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custborder_green"
+                android:hint="@string/nama_lengkap"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/etRegisterTglLahir"
+                style="@style/btn_main_menu"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etRegisterNamaLengkap"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custborder_green"
+                android:hint="@string/tanggal_lahir"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/etRegisterPhone"
+                style="@style/btn_main_menu"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etRegisterTglLahir"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custborder_green"
+                android:hint="@string/nomor_ponsel"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/etRegisterKotaAsal"
+                style="@style/btn_main_menu"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etRegisterPhone"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custborder_green"
+                android:hint="@string/kota_asal"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/etRegisterKodePos"
+                style="@style/btn_main_menu"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etRegisterKotaAsal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custborder_green"
+                android:hint="@string/kode_pos"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/etRegisterAlamat"
+                style="@style/btn_main_menu"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etRegisterKodePos"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custborder_green"
+                android:hint="@string/kode_pos"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnRegister"
+                style="@style/btn_main_menu"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etRegisterAlamat"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#5BC8AC"
+                android:text="@string/daftar"
+                android:textColor="#FDFDFD"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvLoginHere"
+                android:layout_below="@+id/btnRegister"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#5BC8AC"
+                android:text="@string/udah_punya_akun_log_in_aja"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>
